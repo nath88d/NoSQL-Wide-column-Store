@@ -1,4 +1,4 @@
-// Histórico do Aluno
+-- Histórico do Aluno
 
 SELECT * FROM historico_aluno WHERE id_aluno = 8;
 
