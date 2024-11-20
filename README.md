@@ -16,11 +16,11 @@ Para se conectar com o banco de dados, basta acessar o site https://www.datastax
 
 ----
 <h2>BIBLIOTECAS UTILIZADAS EM PYTHON</h2>
-
+<p>
 names <br>
 random  <br>
-print <br>
 cassandra-driver <br>
+</p>
 ----
 
 <h2>INSTALAÇÃO</h2>
