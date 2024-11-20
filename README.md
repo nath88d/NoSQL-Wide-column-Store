@@ -21,6 +21,7 @@ names <br>
 random  <br>
 cassandra-driver <br>
 </p>
+
 ----
 
 <h2>INSTALAÇÃO</h2>
@@ -44,6 +45,7 @@ Exemplo--> pip install names<br>
   ----
 <h2>UTILIZAÇÃO DE QUERIES</h2>
   Para conseguir rodar as queries no ambiente do Astra DB, basta utilizar o CQL Console, disponível no próprio site.
+  
 ----
 <h2>DIAGRAMA RELACIONAL</h2>
 
