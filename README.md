@@ -29,7 +29,6 @@ Utilizando um terminal de sua preferência, executar os seguintes comandos:
 
 Exemplo--> pip install names<br> 
 
-<>
 
 --> Fazer a mesma coisa com as demais bibliotecas: **pip install print**, **pip install cassandra-driver**
 
