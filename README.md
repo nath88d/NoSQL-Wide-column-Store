@@ -9,9 +9,9 @@
 
 ----
 
-<h2>CONEXÃO COM O BANCO DE DADOS</h2>
+<h2>CONEXÃO COM O BANCO DE DADOS ASTRA</h2>
 
-Para se conectar com o banco de dados, basta adicionar sua connection string no arquivo "key.py".
+Para se conectar com o banco de dados, basta acessar o site https://www.datastax.com/products/datastax-astra e seguir os passos apresentados para a obtenção das credenciais .json e .zip.
 
 
 ----
@@ -20,7 +20,7 @@ Para se conectar com o banco de dados, basta adicionar sua connection string no 
 names <br>
 random  <br>
 print <br>
-
+cassandra-driver <br>
 ----
 
 <h2>INSTALAÇÃO</h2>
@@ -29,42 +29,22 @@ Utilizando um terminal de sua preferência, executar os seguintes comandos:
 
 Exemplo--> pip install names<br> 
 
-<IMAGEM>
+<>
 
---> Fazer a mesma coisa com as demais bibliotecas: **pip install print**
+--> Fazer a mesma coisa com as demais bibliotecas: **pip install print**, **pip install cassandra-driver**
 
 
-obs: Para executar estes comandos é necessario ter instalado previamente python3 na versão <VERSÃO ANTIGA QUE ESTAMOS USANDO>. 
+**OBS: Para executar estes comandos é necessario ter instalado previamente python3 na versão 3.10.** 
 
 ----
 <h2>INSERÇÃO DOS DADOS NO BANCO</h2>
-  Executar o arquivo "./inserir_dados.py" 
-  
+  Executar o arquivo "./inserir_dados.py" para a inserção dos dados no banco.
 
-  Exemplo de arquivo executado:<br>
-  <IMAGEM>
-
-  Após a inserção dos dados, utilizar o arquivo "create.cql" para fazer a requisição filtrada dos dados.
-
+  Após a inserção dos dados, execute o arquivo "queries.cql" para fazer a requisição filtrada dos dados.
 
   ----
 <h2>UTILIZAÇÃO DE QUERIES</h2>
-  Para conseguir rodar as queries no ambiente do <NOME DO AMBIENTE>, basta < ... >.
-
-  Após a instalação um ícone de folha aparecerá no canto esquerdo: <IMAGEM>
-
-<ALTERAR>
- * Clique no ícone
- * Em "connections", clique em "conectar"
- * "Connect with connection **string**
- * Coloque sua connection string onde o Vs Code indicar
- * O banco será conectado
-
-   --> Para rodar as queries desejadas, modifcar o arquivo .cql quando precisar (deixe comentado as queries que não desejar aplicar no momento).
-   
-   --> <ALTERAR?> Aperte Ctrl+Alt+R para rodar.
-
-  
+  Para conseguir rodar as queries no ambiente do Astra DB, basta utilizar o CQL Console, disponível no próprio site.
 ----
 <h2>DIAGRAMA RELACIONAL</h2>
 
