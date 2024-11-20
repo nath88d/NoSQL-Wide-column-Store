@@ -1,5 +1,4 @@
 # NoSQL-Wide-column-Store
-# NoSQL-Document-Store
 
 ----
 <h2>GRUPO</h2>
